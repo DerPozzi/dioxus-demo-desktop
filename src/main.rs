@@ -24,6 +24,9 @@ fn App(cx: Scope) -> Element {
 fn AppComponent(cx: Scope, name: String) -> Element {
     render!(
         div {
+            onmouseenter: move |event| {
+                println!("{:?}", event)
+            },
             "Hallo {name}, wie geht es dir?"
         }
     )
