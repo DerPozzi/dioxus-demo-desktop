@@ -8,7 +8,6 @@ fn main() {
 fn App(cx: Scope) -> Element {
     cx.render(rsx! {
         h1 {
-            background: "blue",
             "Hello World"
         }
         div {
