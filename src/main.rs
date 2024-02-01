@@ -8,7 +8,12 @@ fn main() {
 fn App(cx: Scope) -> Element {
     cx.render(rsx! {
         h1 {
+            background: "blue",
             "Hello World"
+        }
+        div {
+            text_align: "center",
+            "Das ist ein Test, muss das neu Kompiliert werden? Okay das Krass, das sind live Änderungen hier..."
         }
     })
 }
