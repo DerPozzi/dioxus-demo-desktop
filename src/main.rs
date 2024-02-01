@@ -16,7 +16,7 @@ fn App(cx: Scope) -> Element {
         }
         AppComponent{
              name: "Emily".to_string() 
-        } 
+        }
     })
 }
 
