@@ -17,7 +17,14 @@ fn App(cx: Scope) -> Element {
         AppComponent{
              name: "Emily".to_string() 
         }
+        MyComponen{}
     })
+}
+
+fn MyComponen(cx: Scope) -> Element {
+    render!(
+            div { "Das ist ein Test ob ich mit vim arbeiten kann." }
+    )
 }
 
 #[component]
